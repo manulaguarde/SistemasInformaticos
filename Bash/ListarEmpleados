@@ -1,0 +1,6 @@
+#!/bin/bash
+IFS=,
+while read nombre salario
+do
+ echo "Hola $nombre con salario$salario"
+done < Empleados
