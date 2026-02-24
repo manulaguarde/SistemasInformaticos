@@ -26,7 +26,7 @@ do
  3) echo "Ingresa nombre del fichero"
     read fichero
     echo "`touch $fichero`"
-    echo "Pulse una tecla para continaur..."
+    echo "Pulse una tecla para continuar..."
     read tecla;;
  4) echo "Ingresa nombre del fichero a borrar"
     read fichero
